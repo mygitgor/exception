@@ -1,0 +1,6 @@
+USE test
+CREATE FUNCTION helloRETURNS VARCHAR(20)ASDECLAREcurrent_hour
+SELECT EXTRACTHOUR FROM NOWINTO current_hour
+current_hour AND current_hour THEN
+
+
