@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class TrayResource {
+public class TrayCatch {
     public static void main(String[] args) throws Exception {
         
         float result = getTypeFloat();
@@ -9,7 +9,6 @@ public class TrayResource {
         resolve3();
 
     }
-
 
     public static float getTypeFloat(){
         Scanner scaner = new Scanner(System.in);
@@ -29,7 +28,6 @@ public class TrayResource {
         return result;
     }
 
- 
     public static void resolve2(){
         try {
             int d = 0;
@@ -46,7 +44,6 @@ public class TrayResource {
     
     public static void resolve3(){
         try {
-
             int a = 90;
             int b = 3;
 
@@ -67,13 +64,9 @@ public class TrayResource {
  
     }
      
-    
     public static void printSum(Integer a, Integer b) throws RuntimeException {
         System.out.println(a + b);
     }
-     
- 
- 
 
 }
 
